@@ -1,0 +1,17 @@
+resources:
+- name: ci_101
+  type: git
+  source:
+    uri: https://github.com/slowestgirl/ci_101.git
+    private_key: {{FIXME}}
+    branch: master
+
+- name: test-app
+  type: cf
+  source:
+    api: https://api.run.pivotal.io
+    username: {{FIXME}}
+    password: {{FIXME}}
+    organization: {{FIXME}}
+    space: {{FIXME}}
+    
