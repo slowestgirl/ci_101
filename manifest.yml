@@ -3,3 +3,4 @@ applications:
 - name: test-mmc
   memory: 512M
   buildpack: staticfile_buildpack
+  path: ./app
